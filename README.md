@@ -11,12 +11,20 @@ Thành viên tham gia:
 - Hà Mạnh Trình
 
 
-**TRỰC QUAN HÓA DỮ LIỆU** 
+![output](https://github.com/user-attachments/assets/bebe03b4-e8f8-4430-b41d-c3aee1a69b61)
 
-MNIST (viết tắt của Modified National Institute of Standards and Technology) là bộ dữ liệu hình ảnh kinh điển chứa các chữ số viết tay, được sử dụng rộng rãi như một bài kiểm tra tiêu chuẩn trong lĩnh vực học máy. Ra đời từ năm 1999, MNIST vẫn giữ vai trò quan trọng trong việc đánh giá hiệu quả của các thuật toán phân loại mới.
+**DỰ ĐOÁN TRÊN TỪNG HÌNH ẢNH RIÊNG LẺ**
 
-Bộ dữ liệu này bao gồm 70.000 hình ảnh thang độ xám, với 60.000 hình ảnh dùng để huấn luyện và 10.000 hình ảnh để kiểm tra. Mỗi hình ảnh có kích thước 28x28 pixel và biểu diễn một chữ số viết tay từ 0 đến 9.
+- **Mục tiêu**
 
-Tóm lại, MNIST là một tập dữ liệu cơ bản và quan trọng trong học máy, đóng vai trò như một nền tảng để đánh giá và so sánh các phương pháp phân loại hình ảnh.
+Sau khi đã huấn luyện mô hình mạng nơ-ron tích chập (CNN) trên bộ dữ liệu MNIST, bước tiếp theo là kiểm tra khả năng của mô hình bằng cách dự đoán chữ số trên từng hình ảnh cụ thể.
 
-![Chu_Viet_Tay]([http://~](https://img.notionusercontent.com/s3/prod-files-secure%2F00aad975-db80-4ca6-a0d4-8e4e6c3b58fd%2F0b00715a-d848-4bdc-bc1f-c1ead8fe812e%2Fmnist.png/size/w=910?exp=1729693167&sig=7tCnP5q-1pGv7f7dBYfNykbIHB4sksij5-XwA_pRGkQ))
+- **Thực hiện**
+
+Để dự đoán chữ số viết tay bằng mô hình CNN đã huấn luyện, ta cần thực hiện các bước sau:
+
+1. **Chọn ảnh:** Chọn ảnh từ tập kiểm thử hoặc ảnh tự tạo.
+2. **Tiền xử lý:** Định dạng lại ảnh về kích thước 28x28 và chuẩn hóa giá trị pixel về khoảng 0-1.
+3. **Dự đoán:** Sử dụng mô hình CNN để dự đoán chữ số trong ảnh.
+4. **Hiển thị kết quả:** So sánh kết quả dự đoán với nhãn thực tế của ảnh.
+5. **Kết quả:** Dưới đây là một ví dụ về kết quả dự đoán trên một số hình ảnh từ tập kiểm thử:
