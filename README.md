@@ -30,3 +30,10 @@ Sau khi đã huấn luyện mô hình mạng nơ-ron tích chập (CNN) trên b�
 5. **Kết quả:** Dưới đây là một ví dụ về kết quả dự đoán trên một số hình ảnh từ tập kiểm thử:
 
 ![image (1)](https://github.com/user-attachments/assets/2763c07a-c72a-4211-bb4f-e2486bfdc0dc)
+
+
+![mmmm2](https://github.com/user-attachments/assets/b52f2142-901c-42a2-a577-5f104c74fb1b)
+
+
+![mmmmmmm](https://github.com/user-attachments/assets/2a416df1-1bb9-4d47-8de5-a61fa8251642)
+
