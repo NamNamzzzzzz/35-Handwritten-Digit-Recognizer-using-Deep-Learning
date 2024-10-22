@@ -28,3 +28,5 @@ Sau khi đã huấn luyện mô hình mạng nơ-ron tích chập (CNN) trên b�
 3. **Dự đoán:** Sử dụng mô hình CNN để dự đoán chữ số trong ảnh.
 4. **Hiển thị kết quả:** So sánh kết quả dự đoán với nhãn thực tế của ảnh.
 5. **Kết quả:** Dưới đây là một ví dụ về kết quả dự đoán trên một số hình ảnh từ tập kiểm thử:
+
+![image (1)](https://github.com/user-attachments/assets/2763c07a-c72a-4211-bb4f-e2486bfdc0dc)
